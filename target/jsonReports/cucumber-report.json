@@ -1,0 +1,305 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-05T22:04:33.363Z",
+        "line": 24,
+        "name": "Verify add place is being succesfully added using AddPlaceAPI",
+        "description": "",
+        "id": "validating-place-api-s;verify-add-place-is-being-succesfully-added-using-addplaceapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1819122000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Add place Payload with \"Raghu\" , \"Kannada\" , \"Mysore city\" and \"8019356528\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Raghu\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Kannada\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Mysore city\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"8019356528\"",
+                  "offset": 63
+                }
+              ],
+              "location": "stepDefinitions.stepDefintion.add_place_payload_with_something_something_something_and_something(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3862050000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user calls \"AddPlaceAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.stepDefintion.user_calls_something_with_something_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2147000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the API call is success with status code is 200",
+            "match": {
+              "location": "stepDefinitions.stepDefintion.the_api_call_is_success_with_status_code_is_200()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 704345000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"status\" in response body is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.stepDefintion.something_in_response_body_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21785000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "\"scope\" in response body is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.stepDefintion.something_in_response_body_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2931719000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify place_Id created maps to \"Raghu\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Raghu\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.stepDefintion.verify_placeid_created_maps_to_something_using_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Addplace2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-05T22:04:42.800Z",
+        "line": 25,
+        "name": "Verify add place is being succesfully added using AddPlaceAPI",
+        "description": "",
+        "id": "validating-place-api-s;verify-add-place-is-being-succesfully-added-using-addplaceapi;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6188000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Add place Payload with \"Amar\" , \"Hindi\" , \"Delhi city\" and \"7795090732\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amar\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Hindi\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Delhi city\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"7795090732\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefinitions.stepDefintion.add_place_payload_with_something_something_something_and_something(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1369427000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user calls \"AddPlaceAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.stepDefintion.user_calls_something_with_something_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the API call is success with status code is 200",
+            "match": {
+              "location": "stepDefinitions.stepDefintion.the_api_call_is_success_with_status_code_is_200()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12585000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"status\" in response body is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.stepDefintion.something_in_response_body_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16723000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "\"scope\" in response body is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.stepDefintion.something_in_response_body_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3239066000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify place_Id created maps to \"Amar\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amar\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.stepDefintion.verify_placeid_created_maps_to_something_using_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Addplace2"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Place API\u0027s",
+    "description": "",
+    "id": "validating-place-api-s",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placeValidations.feature",
+    "tags": []
+  }
+]
